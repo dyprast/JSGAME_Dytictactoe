@@ -1,0 +1,63 @@
+@font-face{
+  src: url(../font/Balsamiq_Sans/BalsamiqSans-Bold.ttf);
+  font-family: "BalsamiqSans";
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body{
+  font-family: "BalsamiqSans";
+  margin: 0;
+}
+canvas {
+  display: block;
+  margin: 20px auto;
+}
+.move {
+  margin: 40px auto 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 40px;
+}
+.cpright{
+  position: fixed;
+  width: 100%;
+  bottom: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.container {
+  display: block;
+  margin: 200px auto;
+}
+.center-align {
+  text-align: center
+}
+.instruction {
+  margin-bottom: 2rem;
+}
+.btn {
+  transition: transform .2s ease-out;
+  font-family: "BalsamiqSans";
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 3px 25px;
+  cursor: pointer;
+  background-color: #1976D2;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px 3px rgba(25, 118, 210, .5);
+}
+.btn:active {
+  transform: scale3d(.75, .75, 1);
+}
+
+.app-theme{
+  background-color: #1b1b1b;
+  color: #fff;
+}
